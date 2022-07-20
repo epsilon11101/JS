@@ -29,4 +29,3 @@ https://dmitripavlutin.com/javascript-object-destructuring/#2-extracting-a-prope
 
 */
 
-alert("press ok when read the console log results");

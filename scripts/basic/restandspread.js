@@ -23,6 +23,6 @@ console.log(arr1, arr2);
 const arr3 = [...arr1, ...arr2];
 console.log("SPREAD OPERATOR");
 console.log(arr3);
-alert("press ok when read the console log results");
+
 
 

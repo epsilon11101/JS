@@ -8,8 +8,7 @@
     console.log(`NEW_ARRAY_VALUES: ${ARRAY}`);
     console.log('ERROR IF WE TRY TO CHANGE NAME VALUE CAUSE IS A PRIMITIVE VALUE :');
     console.log("Uncaught TypeError: Assignment to constant variable.at const.js:17");
-    alert("press ok when read the console log results");
-   
+
     NAME = "NEW NAME";
     
 

@@ -9,4 +9,3 @@ console.log(
     my_name.includes('A')
 )
 
-alert("press ok when read the console log results");

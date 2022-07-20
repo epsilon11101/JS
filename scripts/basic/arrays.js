@@ -5,41 +5,40 @@ const exampleArray = function () {
     return [1, 2, 3];
  }
 
-const my_array = [];
-const b = [1, 2, 'a',["A"],exampleArray()];
+const ea_my_array = [];
+const ea_b = [1, 2, 'a',["A"],exampleArray()];
 
 
 console.log(`this is an empty array`);
-console.log(my_array);
+console.log(ea_my_array);
 console.log(`filled array`);
-console.log(b);
-console.log(`lenght of array ${b.length}`);
-console.log(`specific element ${b[4][1]}`);
+console.log(ea_b);
+console.log(`lenght of array ${ea_b.length}`);
+console.log(`specific element ${ea_b[4][1]}`);
 
 
 console.log("ES6 new way to fill arrays with Array.of")
-const c = Array.of("X", exampleArray(), 4, 5, 6);
+const ea_c = Array.of("X", exampleArray(), 4, 5, 6);
 console.log(c)
 
 console.log("assign to all elements a specific value and create n elements array");
-const d = Array(100).fill(false);
-console.log(d);
+const ea_d = Array(100).fill(false);
+console.log(ea_d);
 
 
-const colors = ["red", "green", "blue"];
-console.log(colors)
+const ea_colors = ["red", "green", "blue"];
+console.log(ea_colors)
 
 console.log('add new elements');
-colors.push('Black');
-console.log(colors);
+ea_colors.push('Black');
+console.log(ea_colors);
 
 console.log('remove last element');
-colors.pop();
-console.log(colors);
+ea_colors.pop();
+console.log(ea_colors);
 
 console.log('');
-colors.forEach(function(element,index){
+ea_colors.forEach(function(element,index){
     console.log(`<li id=${index}>${element}</li>`);
 });
 
-alert("press ok when read the console log results");

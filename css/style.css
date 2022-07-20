@@ -39,6 +39,39 @@ body{
     border-color: #e6d500;
 }
 
+.transition{
+    animation: updown 0.8s  ;
+}
+
+.restore-c{
+    position: fixed;
+    color: #4c58f7e5;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 50px;
+    left: 85%;
+    top:0;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.restore-c:hover{
+    transform:scale3d(2, 2, 2);
+}
+@keyframes updown{
+    from{
+        transform:scale3d(1, 1, 1);
+    }
+
+    50%{
+        transform:scale3d(2, 2, 2);
+    }
+    to{
+        transform:scale3d(1, 1, 1);
+    }
+}
+
+
 
 header h1{
     position: relative;
@@ -151,6 +184,21 @@ code{
     color: #F18A00;
     font-weight: bolder;
     
+}
+
+@media (max-width:575px) {
+    .restore-c {
+        left: 65%;
+        z-index: 1;
+    }
+
+    
+}
+@media (max-width:767px) and (min-width:576px){
+        .restore-c {
+            left: 70%;
+            z-index: 1;
+        }
 }
 
 

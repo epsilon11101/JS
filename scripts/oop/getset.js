@@ -47,7 +47,7 @@ class Dog extends Animal {
 
 };
 
-
+console.clear();
 const ego = new Dog("ego", 15,"small");
 console.log(ego);
 ego.whoami();
@@ -56,4 +56,3 @@ ego.bark();
 ego.breed = "American pitbull";
 console.log(ego.breed);
 Dog.hi();
-alert("press ok when read the console log results");

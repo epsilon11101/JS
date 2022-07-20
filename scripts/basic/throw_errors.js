@@ -20,5 +20,5 @@ try {
     console.log(num * num);
  } catch (error) {
      console.log(error);
-     alert("press ok when read the console log results");
+    
  }

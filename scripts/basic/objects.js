@@ -38,4 +38,3 @@ console.log("Some important methods");
 console.log(Object.keys(person));
 console.log(Object.values(person));
 console.log(person.hasOwnProperty("Name")); //evaluate if the property exists
-alert("press ok when read the console log results");

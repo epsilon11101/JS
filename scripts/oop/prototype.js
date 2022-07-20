@@ -24,8 +24,8 @@ yuno.age = 15;
 ego.name = "egito";
 ego.age = 100;
 
+console.clear();
 ego.bark();
 yuno.presentation();
 ego.presentation();
 
-alert("press ok when read the console log results");
