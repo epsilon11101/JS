@@ -35,7 +35,7 @@ Dog.prototype.bark = function() {
     console.log(`wauu wauuu im ${this.name} im ${this.age} old and im so ${this.size}`);
 }
 
-
+console.clear();
 ego = new Dog('ego', 15, 'small');
 
 ego.presentation();
@@ -44,4 +44,3 @@ ego.bark();
 
 console.log(ego);
 
-alert("press ok when read the console log results");

@@ -1,7 +1,11 @@
 
 $(document).ready(function () {
 
+    
+
     const all_html_buttons = document.querySelectorAll(".execute-button");
+
+    const restore_button = document.querySelector(".restore-c");
 
     const src_script = Array.of(
         'basic/variables.js',
@@ -25,19 +29,35 @@ $(document).ready(function () {
 
         element.addEventListener("click",()=>{
             try {
+
                 let script = document.createElement("script");
                 script.type = 'text/javascript'
                 script.async = true;
                 script.src = `scripts/${src_script[index]}`;
                 let s = document.getElementsByTagName("script")[0].appendChild(script);
                 s.parentNode.insertBefore(script, s);
+
+                restore_button.classList.add('transition');
                 
+                restore_button.addEventListener('animationend', () => {
+                    restore_button.classList.remove('transition');
+                });
+
             } catch (error) {
                 alert(error);
             }
 
         });
+
+        restore_button.addEventListener("click", () => {
+            location.reload();
+        })
+
+
+        
     });
+
+    
 
 });
 

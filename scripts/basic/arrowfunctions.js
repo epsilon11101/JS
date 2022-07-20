@@ -21,13 +21,12 @@ num.forEach((ele, index) => {
 });
 
 
-const dog = {
+const ear_dog = {
     name: 'Yuno',
     bark2() { console.log(this);},
     bark: () => { console.log(this);} //inherits from the object where it be declared
     
 }
 
-dog.bark2();
-dog.bark();
-alert("press ok when read the console log results");
+ear_dog.bark2();
+ear_dog.bark();

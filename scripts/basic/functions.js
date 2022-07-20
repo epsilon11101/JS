@@ -12,4 +12,3 @@ const nameFunc = function (name, age) {
 myfunc();
 nameFunc('AARON', 31);
 
-alert("press ok when read the console log results");

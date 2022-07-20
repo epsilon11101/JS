@@ -34,10 +34,9 @@ class Dog extends Animal {
 
 };
 
-
+console.clear();
 const ego = new Dog("ego", 15,"small");
 console.log(ego);
 ego.whoami();
 ego.presentation();
 ego.bark();
- alert("press ok when read the console log results");

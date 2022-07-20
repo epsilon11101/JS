@@ -21,4 +21,3 @@ const dog2 = {
 console.log(dog2);
 dog2.bark();
 
-alert("press ok when read the console log results");
