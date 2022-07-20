@@ -192,12 +192,20 @@ code{
         z-index: 1;
     }
 
+    header h1:hover::after {
+        width: 85%;
+        z-index: -1;
+    }
+
     
 }
 @media (max-width:767px) and (min-width:576px){
         .restore-c {
             left: 70%;
             z-index: 1;
+        }
+        header h1:hover::after {
+            width: 90%;
         }
 }
 
