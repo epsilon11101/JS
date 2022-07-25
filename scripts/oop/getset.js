@@ -41,6 +41,10 @@ class Dog extends Animal {
         return this.kind_breed;
     }
 
+    static breed = {
+        bread: this.kind_breed
+    }
+
     set breed(breed) {
         this.kind_breed = breed;
     }
